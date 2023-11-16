@@ -12,7 +12,7 @@ var server = http.createServer(function (req, res) {
     if(path.pathname == '/test'){
         res.writeHead(200, {'Content-Type': 'application/json'});
         res.end(JSON.stringify({
-            customerName : 'abc',
+            customerName : 'luandaica',
             purchase : 200,
             deliverDate : new Date()
         }));
